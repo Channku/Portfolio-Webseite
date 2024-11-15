@@ -7,7 +7,7 @@
   {
     "title": "CSS",
     "imageSrc": "skills/css.png",
-    "levelOfExperience": "Advanced"
+    "levelOfExperience": "intermediate"
   },
   {
     "title": "React",
@@ -17,6 +17,6 @@
   {
     "title": "Node",
     "imageSrc": "skills/node.png",
-    "levelOfExperience": "Advanced"
+    "levelOfExperience": "intermediate"
   }
 ]
