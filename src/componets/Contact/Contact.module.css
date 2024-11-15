@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the text content */
+  gap: 20px; /* Add some space between heading and paragraph */
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center; /* Center-align heading for consistency */
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center; /* Center-align paragraph text */
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+  margin: 0; /* Ensure no default margin is applied */
+  padding: 0; /* Ensure no default padding is applied */
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease; /* Add a transition for hover effect */
+}
+
+.link a:hover {
+  color: var(--color-primary); /* Change color on hover */
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 40px 5%; /* Reduce padding for smaller screens */
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* Maintain a consistent gap on mobile */
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Ensure links take full width */
+    max-width: 400px; /* Optional: set a max-width for better appearance */
+  }
+
+  .link {
+    justify-content: center; /* Center link content horizontally */
+  }
+
+  .skills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(120px, 1fr)
+    ); /* Make it responsive */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .history {
+    width: 100%;
+    gap: 20px;
+  }
+}

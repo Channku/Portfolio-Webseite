@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Backend Entwickler",
+    "organisation": "Appsteam",
+    "startDate": "August 2024",
+    "endDate": "Present",
+    "experiences": ["query database", "create API endpoints"],
+    "imageSrc": "history/Finger.png"
+  },
+  {
+    "role": "Studycoordination",
+    "organisation": "Inselspital",
+    "startDate": "March 2023",
+    "endDate": "July 2024",
+    "experiences": ["maintain databases", "coordinate study patients"],
+    "imageSrc": "history/Insel.png"
+  }
+]

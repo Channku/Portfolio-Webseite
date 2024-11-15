@@ -1,0 +1,22 @@
+[
+  {
+    "title": "JS",
+    "imageSrc": "skills/js.png",
+    "levelOfExperience": "Basic knowledge"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "levelOfExperience": "Advanced"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "levelOfExperience": "Basic knowledge"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png",
+    "levelOfExperience": "Advanced"
+  }
+]
