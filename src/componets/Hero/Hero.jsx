@@ -5,10 +5,10 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, im Christoph </h1>
+        <h1 className={styles.title}>Hi, i'm Christoph </h1>
         <p className={styles.description}>
           {" "}
-          Im a Way-Up apprentice in application development.{" "}
+          I'm a Way-Up apprentice in application development.{" "}
         </p>
       </div>
       <img
