@@ -1,9 +1,17 @@
 [
   {
+    "role": "Software Engineer",
+    "organisation": "Novis Services",
+    "startDate": "March 2025",
+    "endDate": "July 2025",
+    "experiences": ["query database", "create API endpoints"],
+    "imageSrc": ""
+  },
+  {
     "role": "Backend Entwickler",
     "organisation": "Appsteam",
     "startDate": "August 2024",
-    "endDate": "Present",
+    "endDate": "February 2025",
     "experiences": ["query database", "create API endpoints"],
     "imageSrc": "history/Finger.png"
   },
